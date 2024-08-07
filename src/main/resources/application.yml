@@ -1,0 +1,11 @@
+For the given content, the file seems to be a YAML configuration file. I will modify the content to comply with the standard YAML syntax and best practices. Here is the modified code:
+
+
+server:
+  port: 9002
+
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+  zipkin:
+    base-uri: http://127.0.0.1:9411/

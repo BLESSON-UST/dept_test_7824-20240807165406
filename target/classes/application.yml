@@ -1,0 +1,14 @@
+Updated file content (application.yml):
+
+
+server:
+  port: 9002
+
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+  zipkin:
+    base-uri: http://127.0.0.1:9411/
+
+
+No changes were needed for this YAML file as it already follows the standards and best practices relevant to its type.

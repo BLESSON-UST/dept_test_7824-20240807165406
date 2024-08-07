@@ -1,0 +1,21 @@
+File content (application.yml):
+
+spring:
+  cloud:
+    config:
+      enable: true
+      uri: http://localhost:9296
+
+
+Code:
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+}
